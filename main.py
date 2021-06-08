@@ -34,5 +34,8 @@ def slimnicas():
 def slimnicu():
   return render_template("slimnicu_tabula.html")
 
+@app.route('/arstu')
+def arstu():
+  return render_template("arsta_pievienosana.html")
 
 app.run(host='0.0.0.0', port=8080)

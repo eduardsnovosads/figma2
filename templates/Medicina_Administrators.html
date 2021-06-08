@@ -29,18 +29,59 @@
     
     }
         
+      .container {
+
+    color:rgb(3, 3, 3);
+    font-size:1.5rem
+
+
+}
+
+html, body{
+    height:100%;
+}
+body {
+    margin:0;
+    background: linear-gradient(45deg,#12c2e9,#c471ed,#f64f59);
+    background-size: 200% 200%;
+    animation:gradient 10s ease infinite ;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
     </style>
 </head>
 <body>
+      <nav>
+      <ul>
+  <div align="left" id="button_1">
+          <button><a href="/Klients">Klients</a></button>
+        </div>
+      </ul>
+   </nav>
+   <nav>
+      <ul>
     <h1 align="center">Admnistrators</h1>
 
-    <div align="center" id="poga">
-        <button onclick="document.location='slimnicas_pievienosana.html'" id="pievienotSlimnicu">Pievienot Slimnīcu</button>
+        <div align="center" id button>
+          <button><a href="/arstu">Arstu pievienošana</a></button>
+        </div>
+        <div align="center" id button>
+          <button><a href="/slimnicas">Slimnicu pievienošana</a></button>
+        </div>
     </div>
-
-    <div align="center" id="poga">
-        <button onclick="document.location='arsta_pievienosana.html'" id="pievienotArstu">Pievienot Ārstu</button>
-    </div>
-
+    </ul>
+  </nav>
 </body>
 </html>

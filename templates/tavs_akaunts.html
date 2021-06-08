@@ -1,40 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<style>
-        button {
-                background-color: #AFCDE7;
-                border: 2px solid #AFCDE7;
-                border-radius: 8px;
-                color: black;
-                padding: 15px 32px;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 34px;
-                margin: 4px 2px;
-                cursor: pointer;
-                -webkit-transition-duration: 0.7s;
-                transition-duration: 0.7s;
-                cursor: pointer;
-                    }
-                    button:hover {
-                background-color: white;
-                color: black;
-                } 
-</style>
+    <link rel="stylesheet" href="static/css/style3.css">
 </head>
 <body>
-  <nav>
+    <nav>
       <ul>
-    <button><a href="/">Atpakaļ</a></button>
+        <button><a href="/">Atpakaļ</a></button>
       </ul>
-  </nav>
-   
-<h1> Lietotaja informacija </h1>
+    </nav>
+
+    <form action="">
+        <h1 title="registracijas forma">
+            Papildus informacija
+        </h1>
+        <div class="class">
+         <label for=""> Vārds</label>
+         <input type="text">
+        </div>
+        <div class="class">
+            <label for=""> Uzvārds</label>
+            <input type="text">
+        </div>
+        <div class="class">
+            <label for=""> e-mail</label>
+            <input type="email">
+        </div>
+        <div class="class">
+            <label for=""> Talrunis</label>
+            <input type="text">
+        </div>
+        <div class="class">
+            <label for=""> Parols</label>
+            <input type="password">
+
+        </div>
+        <div class="class">
+            <center><button>Pievienot</button></center>
+        </div>
+    </form>
 </body>
 </html>
